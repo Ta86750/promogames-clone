@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers */
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
+section img {
+  transition: opacity 0.5s ease-in-out;
+}
